@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 U2</title>
+
+    <!-- Libreria Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Libreria Fontawesome -->
+    <script src="https://kit.fontawesome.com/eb00b890a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-bg">
+        <div class="container nav-bar">
+            <a class="img-logo" href="/"><img src="imagenes/pullrequest-logo.svg" alt="logo"></a>
+            
+            <div class="menu-icon" id="iconoMenu">
+                <i class="bi bi-list"></i>
+            </div>    
+        </div>
+    </header>
+    <nav class="container menu-head " id="menuNav">
+        <div class="menu-enlae">
+            <a href="#">Inicio</a>
+            <a href="#">Empresa</a>
+            <a href="#">Servicios</a>
+            <a href="#">Clientes</a>
+            <a href="#">Ubicacion</a>
+            <a href="#">Contactanos</a>
+        </div>
+    </nav>
+
+    <section class="container section">
+        <div class="section1">
+            <h2>Creación de páginas web</h2>
+            <h3>Curso básico de HTLM5 y CSS3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Voluptatum maxime id fugiat distinctio nesciunt tempora esse
+                provident ut, amet similique exercitationem minus, soluta vel a.
+            </p>
+            <a href="#">ver</a>
+        </div>
+        <figure class="section2">
+            <img class="img_section" src="imagenes/foto_pullrequest.svg" alt="alv">
+        </figure>
+    </section>
+
+    <footer class="bg-footer">
+        <div class="footer">
+            <a href="#">alfredoek@gmail.com</a>
+        </div>
+    </footer>
+
+    <!-- Funciones de javascript -->
+     <script>
+        //Scrip para el menu desplegable
+        $("#iconoMenu").click( function () {
+            $("#menuNav").slideToggle();
+        });
+        
+
+     </script>
+</body>
+</html>
